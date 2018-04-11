@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Calificar;
 
 /**
@@ -15,10 +11,15 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //instanciamos la clase
         AccedeDB gestion = new AccedeDB();
-
+        //Mostramos el listado inicial
         gestion.listado();
+        //Añadimos una calificación
         gestion.anade();
+        //Modificamos una calificacion
+        gestion.modifica();
+        //Listamos de nuevo
+        gestion.listado();
     }
-    
 }
