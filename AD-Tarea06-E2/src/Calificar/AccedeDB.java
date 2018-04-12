@@ -43,7 +43,7 @@ public class AccedeDB implements BDModificadaListener {
      */
     public void anade() {
         calificaciones.setDNI("98765432A");
-        calificaciones.setNombreCurso("Cria del mamut");
+        calificaciones.setNombreCurso("Entornos de Desarrollo");
         calificaciones.setCurso("15-16");
         calificaciones.setNota(5.6);
         try {

@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `calificaciones` (
 -- Volcar la base de datos para la tabla `calificaciones`
 --
 INSERT INTO `calificaciones` (`DNI`, `NombreCurso`, `Curso`, `Nota`) VALUES
-('12345678A', 'Pintura rupestre', '17-18', 7),
-('23456789B', 'Caza y pesca', '16-17', 9.2),
-('14785236D', 'Escritura papiros', '15-16', 8.5),
-('96385274F', 'Talla de piedra', '17-18', 5.3);
+('12345678A', 'Acceso a datos', '17-18', 7),
+('23456789B', 'Desarrollo Web Entorno Servidor', '16-17', 9.2),
+('14785236D', 'Bases de Datos', '15-16', 8.5),
+('96385274F', 'Desarrollo Web Entorno Cliente', '17-18', 5.3);

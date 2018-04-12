@@ -22,7 +22,8 @@ public class CalificacionesBean implements Serializable {
     protected Double Nota;
     
     private PropertyChangeSupport propertySupport;
-    //CONSTANTES 
+    
+    //CONSTANTES PARA CONEXION A LA BASE DE DATOS
     protected static final String URL = "jdbc:mysql://192.168.0.250/alumnos";
     protected static final String USR = "alumnos";
     protected static final String PSW = "123456";
@@ -369,5 +370,3 @@ public class CalificacionesBean implements Serializable {
     }
 
 }
-
-
